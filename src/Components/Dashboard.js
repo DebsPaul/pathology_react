@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 
 
@@ -8,7 +9,7 @@ export default function Dashboard(props) {
         <div id="dashboard" className="my-4">
             <div className="section-title">
                 <div className="title">Your Health</div>
-                <a href="#" className="see-all">See All</a>
+                <Link to="/my-account" className="see-all">See All</Link>
             </div>
 
             <div className="innerWrap">

@@ -323,6 +323,7 @@ p {
 		border-radius: 5px;
 		overflow: hidden;
 		display: none;
+		z-index: 1;
 	}
 	#header .headerDropdown li a {
 		display: block;
@@ -357,6 +358,7 @@ p {
 	}
 	.sidemenuOpen #sidemenuWrap {
 		left: 0;
+		box-shadow: 0 0 200px rgb(0,0,0,0.5);
 	}
 
 	#sidemenuClose {
